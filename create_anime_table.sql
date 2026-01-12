@@ -1,3 +1,5 @@
+-- Anime table needed to ingest data
+
 CREATE TABLE IF NOT EXISTS anime(
     mal_id INTEGER,
     title_english TEXT,
@@ -12,4 +14,5 @@ CREATE TABLE IF NOT EXISTS anime(
     broadcast_weekday TEXT,
     broadcast_time TEXT,
     from_date DATE
+
 )
